@@ -38,6 +38,10 @@ public class Factorial {
 		 try {
 			 num = scanner.nextInt();
 		 } catch (InputMismatchException e){
+<<<<<<< HEAD
+=======
+			 // no specific instructions given to handle try-catch
+>>>>>>> 5e45c4a (final commit)
 		 }
 
 		 if(num <= 10 && num >= 1){
