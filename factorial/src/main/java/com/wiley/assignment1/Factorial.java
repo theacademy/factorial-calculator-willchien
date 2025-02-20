@@ -40,10 +40,9 @@ public class Factorial {
 		 } catch (InputMismatchException e){
 			 // no specific instructions given to handle try-catch
 		 }
-
-		 if(num <= 10 && num >= 1){
+		 if (num >= 1 && num <= 10) {
 			 return num;
-		 } else{
+		 } else {
 			 this.printStream.print("Invalid entry. Please enter an integer between 1 and 10, inclusive.");
 			 return -1;
 		 }
